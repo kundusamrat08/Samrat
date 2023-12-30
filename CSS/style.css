@@ -413,11 +413,45 @@ color: var(--yellow);
 }
 
 
+.technical {
+    background-color: #1a1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
 
+.technical h1 {
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
+.technical ul {
+    font-size: 20px;
+    color: #ecf0f1;
+    list-style-type: none;
+    padding: 0;
+}
 
+.technical ul li {
+    margin-bottom: 5px;
+}
 
+.technical ul li strong {
+    color: #f39c12;
+}
+.info a {
+    color: var(--yellow); /* Set the color to white */
+    font-size: 25px; /* Set the font size to your desired value */
+    margin-right: 15px; /* Optional: Add some spacing between icons */
+    left: 5px;
+    
+}
 
+/* Optional: Hover effect for the icons */
+.social-icons a:hover {
+    opacity: 0.8;
+}
 
 
 
@@ -490,4 +524,32 @@ header.toggle {
     .contact .row form{
         margin: 3rem 0;
     }
+ 
+    .technical {
+        padding: 15px;
+    }
+
+    .technical h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        
+    }
+
+    .technical ul {
+        font-size: 19px;
+        flex-wrap: wrap;
+    }
+
+    .technical ul li {
+        margin-bottom: 3px;
+    }
+    .info a {
+        font-size: 36px;
+        right: 5rem;
+        margin: 15px;
+      }
+      
+    
 }
+
+
