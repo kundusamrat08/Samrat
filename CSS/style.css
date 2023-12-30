@@ -185,6 +185,7 @@ header .navbar ul li a:hover {
 .home h1 span {
 
     color: var(--yellow);
+    font-size: 4rem;
 }
 
 .home p {
